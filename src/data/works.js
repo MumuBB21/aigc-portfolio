@@ -2,13 +2,19 @@ export const works = {
   characters: {
     title: { en: "Character Design", zh: "人物设计图" },
     ratio: 3 / 4,
-    images: Array.from({ length: 8 }, (_, i) => ({
-      id: `char-${i + 1}`,
-      placeholder: `https://placehold.co/600x800/1a1a25/ff7eb9?text=Char+${i + 1}`
-    })),
+    images: [
+      { id: 'char-01', placeholder: '/images/characters/char_01.png' },
+      { id: 'char-02', placeholder: '/images/characters/char_02.png' },
+      { id: 'char-03', placeholder: '/images/characters/char_03.png' },
+      { id: 'char-04', placeholder: '/images/characters/char_04.png' },
+      { id: 'char-05', placeholder: '/images/characters/char_05.png' },
+      { id: 'char-06', placeholder: '/images/characters/char_06.png' },
+      { id: 'char-07', placeholder: '/images/characters/char_07.png' },
+      { id: 'char-08', placeholder: '/images/characters/char_08.png' }
+    ],
     notes: {
       tools: [
-        "Midjourney v6 + ControlNet",
+        "Midjourney v7 + ControlNet",
         "DALL·E 3 + Prompt Refinement",
         "Photoshop + Layer Masking",
         "ClipDrop + Background Removal"
@@ -30,13 +36,19 @@ export const works = {
   architecture: {
     title: { en: "Architecture Concepts", zh: "建筑概念 / 效果图" },
     ratio: 16 / 9,
-    images: Array.from({ length: 8 }, (_, i) => ({
-      id: `arch-${i + 1}`,
-      placeholder: `https://placehold.co/1200x675/1a1a25/5a8fff?text=Arch+${i + 1}`
-    })),
+    images: [
+      { id: 'arch-01', placeholder: '/images/architecture/arch_01.png' },
+      { id: 'arch-02', placeholder: '/images/architecture/arch_02.png' },
+      { id: 'arch-03', placeholder: '/images/architecture/arch_03.png' },
+      { id: 'arch-04', placeholder: '/images/architecture/arch_04.png' },
+      { id: 'arch-05', placeholder: '/images/architecture/arch_05.png' },
+      { id: 'arch-06', placeholder: '/images/architecture/arch_06.png' },
+      { id: 'arch-07', placeholder: '/images/architecture/arch_07.png' },
+      { id: 'arch-08', placeholder: '/images/architecture/arch_08.png' }
+    ],
     notes: {
       tools: [
-        "Midjourney v6 + Depth Map",
+        "Midjourney v7 + Depth Map",
         "Stable Diffusion 3 + ControlNet",
         "Blender Cycles + PBR Materials",
         "Photoshop + Light Pass Compositing"
@@ -58,10 +70,16 @@ export const works = {
   posters: {
     title: { en: "Poster & Illustration", zh: "海报底图 / 插画" },
     ratio: 1,
-    images: Array.from({ length: 8 }, (_, i) => ({
-      id: `poster-${i + 1}`,
-      placeholder: `https://placehold.co/800x800/1a1a25/ff9e5a?text=Poster+${i + 1}`
-    })),
+    images: [
+      { id: 'poster-01', placeholder: '/images/posters/post_01.png' },
+      { id: 'poster-02', placeholder: '/images/posters/post_02.png' },
+      { id: 'poster-03', placeholder: '/images/posters/post_03.png' },
+      { id: 'poster-04', placeholder: '/images/posters/post_04.png' },
+      { id: 'poster-05', placeholder: '/images/posters/post_05.png' },
+      { id: 'poster-06', placeholder: '/images/posters/post_06.png' },
+      { id: 'poster-07', placeholder: '/images/posters/post_07.png' },
+      { id: 'poster-08', placeholder: '/images/posters/post_08.png' }
+    ],
     notes: {
       tools: [
         "Midjourney + Text-to-Image",
